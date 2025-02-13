@@ -140,11 +140,13 @@ p {
 	transition: all 0.5s;
 	 
 }
+/*-------------------------*/
 .navbar-brand em {
 	font-style: normal;
-	color: #f7c552;
+	color: #A52A2A;
 	font-size: 32px;
 }
+/*-------------------------*/
 .header.active .navbar-brand {
 	color: red!important;
 }
