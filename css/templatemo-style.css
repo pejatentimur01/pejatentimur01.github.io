@@ -39,10 +39,10 @@ p {
 
 .primary-white-button a {
 	display: inline-block;
-	background-color: #fff;
+	background-color: #00FFFF;
 	font-size: 13px;
 	padding: 12px 18px;
-	color: #121212;
+	color: #000;
 	font-weight: 500;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -77,7 +77,7 @@ p {
 	cursor: pointer;
 }
 
-
+/*-------------------------*/
 .header {
     position: fixed;
     top: 0;
@@ -87,11 +87,11 @@ p {
     z-index: 10000;
     transition: all 0.2s ease-in-out;
     height: 60px;
-    background-color:transparent;  
+    background-color: rgba(0, 0, 0, 0.4); 
     text-align: center;
     line-height: 30px;
 }
-
+/*-------------------------*/
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     text-shadow: none;
 }
@@ -137,16 +137,13 @@ p {
 	font-size: 25px;
 	text-transform: uppercase;
 	color: #fff!important;
-	transition: all 0.5s;
-	 
+	transition: all 0.5s; 
 }
-/*-------------------------*/
 .navbar-brand em {
 	font-style: normal;
-	color: #f7c552;
+	color: #FFFF00;
 	font-size: 32px;
 }
-/*-------------------------*/
 .header.active .navbar-brand {
 	color: red!important;
 }
@@ -161,6 +158,7 @@ p {
     margin: 0;
     border: none;
 }
+
 .page-section {
     padding: 80px 0;
 }
@@ -185,6 +183,8 @@ bootstrap.min.css:5
     border: 1px solid transparent;
     border-radius: 4px;
 }
+/*-------------------------*/
+
 .contact-info {width:220px;}
 @media (min-width: 1024px) {
     .header .navbar-brand {
@@ -215,7 +215,7 @@ bootstrap.min.css:5
   min-height: 100vh;
   background-size: cover;
 }
-
+/*--------------------*/
 .baner-content {
 	width: 100%;
   	padding-top: 35vh;
@@ -223,40 +223,34 @@ bootstrap.min.css:5
   	background-image: url(../img/banner_bg.jpg);
   	vertical-align: middle;
 }
-
 .baner-content .text-content {
 	text-align: center;
 }
-
 .baner-content .text-content h2 {
 	font-size: 36px;
-	font-weight: 400;
-	color: #fff;
+	font-weight: 800;
+	color: #FFF;
 }
-
 .baner-content .text-content h2 span {
 	font-weight: 700;
 	color: #33c1cf!important;
 }
-
 .baner-content .text-content h2 em {
 	font-style: normal;
 	font-weight: 700;
-	color: #f89624!important;
+	color: #FFFF00!important;
 }
-
 .baner-content .text-content p {
 	color: #fff;
 	font-size: 14px;
 	line-height: 24px;
 	padding: 0px 25%;
 }
-
 .baner-content .text-content .primary-white-button {
 	margin-top: 25px;
 }
 
-
+/*--------------------*/
 #about {
 	padding: 150px 0px;
 	background-image: url(../img/about-bg.jpg);
@@ -343,7 +337,7 @@ bootstrap.min.css:5
 #portfolio .section-heading {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-color: #33c1cf;
+	background-color: #993300;
 	height: 732px;
 	margin-left: -100vh;
 	padding-left: 100vh;
@@ -983,7 +977,9 @@ footer .connect-us ul li a:hover {
 	left:0;
     filter: alpha(opacity=0);
 }
-.thumb .image {padding: 10px!important; border-radius: 5px 5px 5px 5px!important;}
+
+.projects-holder-3 img{padding: 1px!important; border-radius: 5px 5px 5px 5px!important; display:inline; position:relative; max-height: 100%;}
+.col-md-8, .col-md-6, .image img {display:inline!important!important; position:relative!important!important; }
 
 .fa, .fas{font-size: 18px; color: orange;}
 
