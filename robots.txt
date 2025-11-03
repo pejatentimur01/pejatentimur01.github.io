@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /css/
-Disallow: /font/
-Disallow: /jp05/
-Disallow: /blog/
-Allow: /blog/post/
