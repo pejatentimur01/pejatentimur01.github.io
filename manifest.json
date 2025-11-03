@@ -1,0 +1,91 @@
+{
+ "name": "SD Negeri Pejaten Timur 01",
+ "short_name": "SDN Pejaten Timur 01",
+ "description": "SD Negeri Pejaten Timur 01 Jalan Poltangan IV RT. 005, RW.010 Kelurahan Pejaten Timur Kecamatan Pasar Minggu",
+ "lang": "id-ID",
+ "start_url": ".",
+ "scope": ".",
+ "dir": "ltr",
+ "theme_color": "#000000",
+ "background_color": "#000000",
+ "display": "fullscreen",
+ "orientation": "portrait",
+ "prefer_related_applications": "false",
+ "categories": ["medical"],
+ "icons": [
+    {
+      "src": "/icons/72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+ "screenshots": [{
+    "src": "/icons/512x512.png",
+    "sizes": "512x512",
+    "type": "image/png",
+    "platform": "wide",
+    "label": "SD Negeri Pejaten Timur 01"
+  }],
+  "splash_pages": null,
+ "shortcuts" : [
+  {
+    "name": "SD Negeri Pejaten Timur 01",
+    "url": "https://sdnpejatentimur01.sch.id/",
+    "description": "Home - SD Negeri Pejaten Timur 01"
+  },
+  {
+    "name": "login SD Negeri Pejaten Timur 01",
+    "url": "https://login.sdnpejatentimur01.sch.id/",
+    "description": "Login - SD Negeri Pejaten Timur 01"
+  },
+  {
+    "name": "Info SD Negeri Pejaten Timur 01",
+    "url": "https://news.sdnpejatentimur01.sch.id/",
+    "description": "Berita - SD Negeri Pejaten Timur 01"
+  },
+]
+}
