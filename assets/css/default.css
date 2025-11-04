@@ -230,6 +230,7 @@ border-radius: 10px;
 display: none;
 visibility: hidden;
 }
+}
 /*
 #second_screen, #third_screen, #fourth_screen, #fifth_screen, #sixth_screen, #seventh_screen {
 filter: invert(100%) blur(3px);
