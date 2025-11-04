@@ -265,7 +265,7 @@ animation-direction: alternate;
 width: 100%;
 position: absolute;
 height: auto;
-display: block;
+display: none;
 z-index:20;
 text-align: center;
 margin-top: 0px;
@@ -357,4 +357,5 @@ max-width: 380px;
 padding-left: 30px;
 padding-right: 30px;
 text-align:left;
+
 }
