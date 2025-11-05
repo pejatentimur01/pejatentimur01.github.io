@@ -1,35 +1,19 @@
- function socialWindow(url) {
-  var left = (screen.width - 570) / 2;
-  var top = (screen.height - 570) / 2;
-  var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
-  // Setting 'params' to an empty string will launch
-  // content in a new tab or window rather than a pop-up.
-  // params = "";
-  window.open(url,"NewWindow",params);
-}
+    function fb_share() {
+    window.open("https://www.facebook.com/sharer.php?u="+window.location.href+"&text="+document.title ,"","height=368,width=600,left=100,top=100,menubar=0");
+    return false;
+    };
 
-function setShareLinks() {
-strReplace();	
-  var pageUrl = encodeURIComponent(document.URL);
-  var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+    function tweeter_share() {
+    window.open("https://twitter.com/share?url="+window.location.href,+"&text="+document.title ,"","height=550,width=525,left=100,top=100,menubar=0");
+    return false;
+    };
 
-  $(".social-share-facebook").on("click", function() {
-    url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
-    socialWindow(url);
-  });
-
-  $(".social-share-twitter").on("click", function() {
-    url = "https://twitter.com/share?url=" + pageUrl;
-    socialWindow(url);
-  });
-  
-  $(".social-share-ig").on("click", function() {
-    url = "https://www.instagram.com/?url=" + pageUrl;
-    socialWindow(url);
-  });
-  
-  $(".social-share-wa").on("click", function() {
-    url = "https://api.whatsapp.com/send?text=" + pageUrl + "%0a" + tweet;
-    socialWindow(url);
-  });	
-}  
+    function ig_share() {
+    window.open("https:///www.instagram.com/?url="+window.location.href,+"&text="+document.title ,"","height=550,width=525,left=100,top=100,menubar=0");
+    return false;
+    };
+	
+	function wa_share() {
+    window.open("https://api.whatsapp.com/send?text="+window.location.href+"&text="+document.title ,"","height=260,width=500,left=100,top=100,menubar=0");
+    return false;
+    };
