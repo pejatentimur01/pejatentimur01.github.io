@@ -52,22 +52,61 @@
 	<meta name="msapplication-TileColor" content="#000000">  
 	
 	<!-- Mendeklarasikan dari CSS -->
-    <link rel="stylesheet" href="assets/css/colors_pallet.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css"> 
-    <link rel="stylesheet" href="assets/css/regular.min.css"> 
+    <link rel="stylesheet" href="https://sdnpejatentimur01.sch.id/assets/css/colors_pallet.css">
+    <link rel="stylesheet" href="https://sdnpejatentimur01.sch.id/assets/css/default.css">
+    <link rel="stylesheet" href="https://sdnpejatentimur01.sch.id/assets/css/fontawesome.css"> 
+    <link rel="stylesheet" href="https://sdnpejatentimur01.sch.id/assets/css/regular.min.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto&family=Montserrat&family=Lato&family=Barrio&family=Caveat+Brush&family=Henny+Penny&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
     
-	<!-- Mendeklarasikan dari JS -->
-    <script src="assets/js/fontawesome.js"></script>
-    <script src="assets/js/callhtml.js"></script>
-    <script src="assets/js//jquery-3.7.1.min.js"></script>
-    <script src="assets/js/regular.min.js"></script>
-    <script src="assets/js/callhtml.js"></script>
-	<script src='https://sdnpejatentimur01.sch.id/assets/js/JQuery-Main.js'/>
-	
+
+</head>
+
+<body onload="includeHTML();setShareLinks()">
+
+<div id="scrollButton">
+	<div id="scrollButtonUp"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><br />
+    <div id="scrollButtonDown"><i class="fas fa-arrow-down" aria-hidden="true"></i></div>
+</div>
+    <!-- 1st_screen -->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/first_pages.html"></div>
+       
+    <!-- 2nd_screen -->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/second_pages.html"></div>
+
+	<!-- 3rd_screen -->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/third_pages.html"></div>
+    
+    <!-- 4th_screen -->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/fourth_pages.html"></div>
+
+    <!-- 5th_screen --->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/fifth_pages.html"></div>
+    
+    <!-- 6th_screen -->
+    
+    
+    
+    <!-- footer_screen -->
+    <div w3-include-html="https://sdnpejatentimur01.sch.id/assets/html/footer_pages.html"></div>
+    <div class="links">
+    <p>share this:</p>
+    	<span class="social-share facebook"> <img src="https://sdnpejatentimur01.sch.id/assets/icon/fb-icon.png" class="social-share-facebook" class="medsos"/> </span>
+    	<span class="social-share twitter"> <img src="https://sdnpejatentimur01.sch.id/assets/icon/tw-icon.png" class="social-share-twitter" class="medsos"/> </span>
+    	<span class="social-share ig"> <img src="https://sdnpejatentimur01.sch.id/assets/icon/ig-icon.png" class="social-share-ig" class="medsos"/> </span>
+		<span class="social-share wa"> <img src="https://sdnpejatentimur01.sch.id/assets/icon/wa-icon.png" class="social-share-wa" class="medsos"/> </span>
+	</div>
+
+ 	<!-- Mendeklarasikan dari JS -->
+    <script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/fontawesome.js"></script>
+    <script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/callhtml.js"></script>
+    <script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/regular.min.js"></script>
+	<script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/JQuery-Main.js"></script>
+    <script type="text/javascript" src="https://sdnpejatentimur01.sch.id/assets/js/Java-Main.js"></script>  
+    
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F99NER94TW"></script>
 <script>
@@ -84,75 +123,8 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-N44GWD2F');</script>
-<!-- End Google Tag Manager -->   
-	
-</head>
-
-<body>
-<div id="scrollButton">
-	<div id="scrollButtonUp"><i class="fas fa-arrow-up" aria-hidden="true"></i></div><br />
-    <div id="scrollButtonDown"><i class="fas fa-arrow-down" aria-hidden="true"></i></div>
-</div>
-    <!-- 1st_screen -->
-    <div id="1st_screen"></div>
-    <script>
-	$('#1st_screen').load('assets/html/first_pages.html');
-	</script>
-       
-    <!-- 2nd_screen -->
-    <div id="2nd_screen"></div>
-    <script>
-	$('#2nd_screen').load('assets/html/second_pages.html');
-	</script>
-    
-	<!-- 3rd_screen -->
-    <div id="3rd_screen"></div>
-    <script>
-	$('#3rd_screen').load('assets/html/third_pages.html');
-	</script>
-    
-    <!-- 4th_screen -->
-    <div id="4th_screen"></div>
-    <script>
-	$('#4th_screen').load('assets/html/fourth_pages.html');
-	</script>
-
-    <!-- 5th_screen --->
-    <div id="5th_screen"></div>
-    <script>
-	$('#5th_screen').load('assets/html/fifth_pages.html');
-	</script>    
-    
-    <!-- 6th_screen -->
-    
-    
-    
-    <!-- footer_screen -->
-    <div id="footer_screen"></div>
-    <script>
-	$('#footer_screen').load('assets/html/footer_pages.html');
-	</script>    
-    
-    
-<script>
-   document.getElementById('scrollButtonDown').addEventListener('click', function() {
-        // Scroll down by one viewport height (100vh)
-        window.scrollBy({
-            top: window.innerHeight,
-            behavior: 'smooth' // For smooth scrolling animation
-        });
-    });
-   document.getElementById('scrollButtonUp').addEventListener('click', function() {
-        // Scroll down by one viewport height (100vh)
-        window.scrollBy({
-            top: -window.innerHeight,
-            behavior: 'smooth' // For smooth scrolling animation
-        });
-    });
-</script>
-	
+<!-- End Google Tag Manager -->      
 </body>
-
 </html>
 
 
